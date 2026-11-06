@@ -22,5 +22,4 @@ void setup() {
 }
 
 void loop() {
-  // Il ciclo loop rimane vuoto per eseguire l'azione una sola volta all'inserimento
 }
